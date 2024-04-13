@@ -1,5 +1,5 @@
- package com.sam.carmanagementsystem;
-
+ package com.learningwithBuchalka;
+ import java.util.Scanner;
 public class Account {
     private String number;
     private double balance;
@@ -11,6 +11,13 @@ public class Account {
         this.balance += depositAmount;
         System.out.println("Deposit of #"+ depositAmount + " made. New balance is #" + this.balance);
     }
+//    Scanner input = new Scanner(System.in);
+//    public void deposit () {
+//        System.out.print("Input deposit amount: ");
+//        float amnt = input.nextFloat();
+//        this.balance += amnt;
+//        System.out.println("Deposit of " + amnt + " was made. New balance:" + this.balance);
+//    }
 
     public void withdraw(double withdrawAmount){
         if (this.balance - withdrawAmount <= 0){

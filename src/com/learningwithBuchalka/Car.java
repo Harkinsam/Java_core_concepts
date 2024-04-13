@@ -1,4 +1,4 @@
-package com.sam.carmanagementsystem;
+package com.learningwithBuchalka;
 
 public class Car {
     private  int doors;

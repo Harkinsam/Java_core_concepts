@@ -1,4 +1,4 @@
-package com.sam.carmanagementsystem;
+package com.learningwithBuchalka;
 
 
 public class   Main {
@@ -15,13 +15,13 @@ public class   Main {
         samAccount.setCustomerEmailAddress("harkinsam@gmail.com");
         samAccount.setCustomerPhoneNumber("080-6886-4996");
 
-        samAccount.withdraw(100.0);
+//        samAccount.withdraw(100.0);
 
-        samAccount.deposit(50.0);
-        samAccount.withdraw(100.0);
-
-        samAccount.deposit(51.0);
-        samAccount.withdraw(100.0);
+        samAccount.deposit(45);
+//        samAccount.withdraw(100.0);
+//
+//        samAccount.deposit(51.0);
+//        samAccount.withdraw(100.0);
 
     }
 
